@@ -1,0 +1,37 @@
+    /* Display Cars */
+#carswrapper {width: 97.75%; height: 190px; border: 1px solid blue;font-family: sans-serif; color:black; z-index: -10;
+    background-image: url('Image1.jpg');
+    background-repeat: no-repeat; z-index: -10;}
+#carsinnerwrapper {width:95%; margin: 25px auto; position: relative; top: -5px;}
+#carsinnerwrapper img {width: 225px; height: 110px; border-radius: 2px; margin-top:3px}
+#carsfonttop {position: relative; left: 8px; top: 15px; font-size: 30px; font-weight: bold; font-family: 'Signika', sans-serif;}
+
+
+.carsc1, .carsc2, .carsc3 {display: inline-block; height: 100px; font-size: 16px; font-family: 'Signika', sans-serif; }
+.carsc1, .carsc2{vertical-align: top; color: black;}
+.carsc1 {width: 100px;   text-align: right;   }
+.carsc2 {width: 90px;   text-align: left;   }
+.carsc3 {width: 200px;   text-align: right; vertical-align: inherit;  
+        float: right; font-size: 30px; font-weight: bold; font-family: 'Signika', sans-serif;}
+
+
+/** Add Car */
+#h1,#h2, #update, {text-align: center; color: blue;}
+
+#imginput
+{
+    display: inline-block;
+    border: 1px solid green;
+    text-align: center;
+}
+
+#body {font-family: sans-serif; 
+    border: 1px solid black; 
+    color: blue; margin-left: auto; 
+    margin-right: auto; 
+    font-size: 18px;}
+
+#label {font-size: 18px;}
+
+
+
