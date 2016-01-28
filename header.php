@@ -99,9 +99,10 @@
 							$header_image_height = HEADER_IMAGE_HEIGHT;
 						}
 					?>
-						<!--<img src="<?php header_image(); ?>" width="<?php echo esc_attr( $header_image_width ); ?>" height="<?php echo esc_attr( $header_image_height ); ?>" alt="" />-->
+						
+						<img src="<?php header_image(); ?>" width="<?php echo esc_attr( $header_image_width ); ?>" height="<?php echo esc_attr( $header_image_height ); ?>" alt="" />
 					<?php endif; ?>
-					<?php  echo do_shortcode('[wonderplugin_slider id="1"]'); ?>
+					
 
 			</div><!-- #branding --><br /><br />
 

@@ -33,6 +33,7 @@ foreach ($myrows as $v){
     <div id="carsfonttop"><?php echo $v['year']." "; echo $v['make']." "; echo $v['body_style']; ?> </div>
     <div id="carsinnerwrapper">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/<?php echo $v['detail_folder_name'] ?>/<?php echo $v['image_name']; ?>"alt="Smiley face" height="100" width="150" />
+    
     <div class="carsc1">
     Engine:<br />
     Transmission:<br />
@@ -59,7 +60,7 @@ foreach ($myrows as $v){
         
     </div>
     <div class="carsc3">
-    $<?php echo $v['sale_price']; ?><br /><br />
+    <?php echo $v['sale_price']; ?><br /><br />
     <?php 
     if (current_user_can('read')) {
 $page_title1 = 'Detail Display';  
