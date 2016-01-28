@@ -25,8 +25,8 @@ foreach($cars as $v){ ?>
 <input type="hidden" name="detail_folder_name" value="<?php echo $v['detail_folder_name']; } ?>" />
       
 
-<div style="width: 100%; border: 1px solid green;">
-<div style="width: 800px; text-align: center; margin: auto; color: #000; border: 1px solid purple;">
+<div style="width: 100%; ">
+<div style="width: 800px; text-align: center; margin: auto; color: #000;">
 <label id="label" for="file">Image File:</label>
 <input type="file" name="files[]" id="file" multiple="" /><br /><br /> 
 <input type="submit" name="submit" value="Upload"/><br /><br />
