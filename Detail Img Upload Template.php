@@ -26,7 +26,11 @@ foreach($cars as $v){ ?>
       
 
 <div style="width: 100%; ">
+<<<<<<< HEAD
 <div style="width: 800px; text-align: center; margin: auto; color: #000;">
+=======
+<div style="width: 800px; text-align: center; margin: auto; color: #000; ">
+>>>>>>> 2f59850ee3a88aaf7aedfbc16292efef473ea7a1
 <label id="label" for="file">Image File:</label>
 <input type="file" name="files[]" id="file" multiple="" /><br /><br /> 
 <input type="submit" name="submit" value="Upload"/><br /><br />
