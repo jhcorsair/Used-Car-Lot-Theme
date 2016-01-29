@@ -13,7 +13,7 @@ $f = $url . '/wordpress/wp-config.php';
 
 if (is_file($f)) {
     
-    echo("$f is a valid FILE");
+   // echo("$f is a valid FILE");
     
     $f = $url . '/wordpress/wp-config.php';
     
@@ -21,7 +21,7 @@ if (is_file($f)) {
     
     $f = $url . '/wp-config.php';
     
-    echo("$f is a valid FILE");
+   // echo("$f is a valid FILE");
     }
 
 
